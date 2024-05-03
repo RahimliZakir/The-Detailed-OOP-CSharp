@@ -1,0 +1,16 @@
+﻿- C# Encapsulation
+The Encapsulation Principle in C# is very similar to a Capsule. 
+As a capsule binds its medicine within it, in the same way in C#, the Encapsulation Principle binds the 
+State (Variables) and Behaviour (Methods) into a single unit called class, enum, interface, etc. 
+So, you can think of Encapsulation as a cover or layer that binds related states and behavior together in a single unit.
+
+- Every class, interface, struct, enum, etc. that we created is an example of encapsulation!
+
+- What is Data Hiding in C#?
+Data hiding or Information Hiding is a Process in which we hide internal data from outside the world. 
+The purpose of data hiding is to protect the data from misuse by the outside world. 
+Data hiding is also known as Data Encapsulation. Without the Encapsulation Principle, we cannot achieve data hiding.
+
+- How can we Implement Data Hiding or Data Encapsulation in C#?
+1. By declaring the variables as private (to restrict their direct access from outside the class)
+2. By defining one pair of public setter and getter methods or properties to access private variables from outside the class.
