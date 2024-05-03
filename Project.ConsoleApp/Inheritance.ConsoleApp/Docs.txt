@@ -1,0 +1,27 @@
+﻿- C# Inheritance
+In C#, inheritance allows us to create a new class from an existing class. It is a key feature of Object-Oriented Programming (OOP).
+The class from which a new class is created is known as the base class (parent or superclass).
+And, the new class is called derived class (child or subclass)
+The derived class inherits the fields and methods of the base class. This helps with the code reusability in C#.
+
+- is-a relationship
+In C#, inheritance is an is-a relationship. We use inheritance only if there is an is-a relationship between two classes. For example,
+
+• Dog is an Animal
+• Apple is a Fruit
+•Car is a Vehicle
+We can derive Dog from Animal class. Similarly, Apple from Fruit class and Car from Vehicle class.
+
+- Types of inheritance
+There are the following types of inheritance:
+
+- 1. Single Inheritance
+In single inheritance, a single derived class inherits from a single base class.
+- 2. Multilevel Inheritance
+In multilevel inheritance, a derived class inherits from a base and then the same derived class acts as a base class for another class.
+- 3. Hierarchical Inheritance
+In hierarchical inheritance, multiple derived classes inherit from a single base class.
+- 4. Multiple Inheritance
+In multiple inheritance, a single derived class inherits from multiple base classes. C# doesn't support multiple inheritance. However, we can achieve multiple inheritance through interfaces.
+- 5. Hybrid Inheritance
+Hybrid inheritance is a combination of two or more types of inheritance. The combination of multilevel and hierarchical inheritance is an example of Hybrid inheritance.

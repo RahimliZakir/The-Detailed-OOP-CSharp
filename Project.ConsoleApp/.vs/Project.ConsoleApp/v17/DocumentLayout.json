@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01F004DD-A807-40D9-931D-8EB60B2E1F98}|Project.ConsoleApp\\Project.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\project.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F004DD-A807-40D9-931D-8EB60B2E1F98}|Project.ConsoleApp\\Project.ConsoleApp.csproj|solutionrelative:project.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\inheritance.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|solutionrelative:inheritance.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\inheritance.consoleapp\\5.hybridinheritance\\ipad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|solutionrelative:inheritance.consoleapp\\5.hybridinheritance\\ipad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\inheritance.consoleapp\\5.hybridinheritance\\appleinc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|solutionrelative:inheritance.consoleapp\\5.hybridinheritance\\appleinc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\inheritance.consoleapp\\5.hybridinheritance\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|solutionrelative:inheritance.consoleapp\\5.hybridinheritance\\iphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|c:\\users\\zrahi\\onedrive\\masa\u00FCst\u00FC\\the-detailed-oop-csharp\\project.consoleapp\\inheritance.consoleapp\\5.hybridinheritance\\techcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEE0115-1816-4732-A9C3-A728692C0BFC}|Inheritance.ConsoleApp\\Inheritance.ConsoleApp.csproj|solutionrelative:inheritance.consoleapp\\5.hybridinheritance\\techcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "iPad.cs",
+              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\iPad.cs",
+              "RelativeDocumentMoniker": "Inheritance.ConsoleApp\\5.HybridInheritance\\iPad.cs",
+              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\iPad.cs",
+              "RelativeToolTip": "Inheritance.ConsoleApp\\5.HybridInheritance\\iPad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:30:57.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "iPhone.cs",
+              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\iPhone.cs",
+              "RelativeDocumentMoniker": "Inheritance.ConsoleApp\\5.HybridInheritance\\iPhone.cs",
+              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\iPhone.cs",
+              "RelativeToolTip": "Inheritance.ConsoleApp\\5.HybridInheritance\\iPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:30:36.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppleInc.cs",
+              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\AppleInc.cs",
+              "RelativeDocumentMoniker": "Inheritance.ConsoleApp\\5.HybridInheritance\\AppleInc.cs",
+              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\AppleInc.cs",
+              "RelativeToolTip": "Inheritance.ConsoleApp\\5.HybridInheritance\\AppleInc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:29:37.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TechCompany.cs",
+              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\TechCompany.cs",
+              "RelativeDocumentMoniker": "Inheritance.ConsoleApp\\5.HybridInheritance\\TechCompany.cs",
+              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\5.HybridInheritance\\TechCompany.cs",
+              "RelativeToolTip": "Inheritance.ConsoleApp\\5.HybridInheritance\\TechCompany.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T00:29:06.54Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Project.ConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "Project.ConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Project.ConsoleApp\\Program.cs",
-              "RelativeToolTip": "Project.ConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Inheritance.ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\zrahi\\OneDrive\\Masa\u00FCst\u00FC\\The-Detailed-OOP-CSharp\\Project.ConsoleApp\\Inheritance.ConsoleApp\\Program.cs",
+              "RelativeToolTip": "Inheritance.ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T23:52:58.937Z",
+              "WhenOpened": "2024-05-03T00:17:03.496Z",
               "EditorCaption": ""
             }
           ]
