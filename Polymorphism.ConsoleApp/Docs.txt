@@ -1,0 +1,20 @@
+﻿- C# Polymorphism
+The term "Polymorphism" is the combination of "poly" + "morphs" which means many forms. It is a greek word. 
+In object-oriented programming, we use 3 main concepts: inheritance, encapsulation and polymorphism.
+Polymorphism simply means occurring in more than one form.
+That is, the same entity (method or operator or object) can perform different operations in different scenarios.
+
+-Types of Polymorphism
+There are two types of polymorphism:
+1. Compile Time Polymorphism / Static Polymorphism
+2. Run-Time Polymorphism / Dynamic Polymorphism
+
+- 1. Compile Time (Static) Polymorphism
+• Method overloading
+• Operator overloading
+
+- 2. Runtime (Dynamic) Polymorphism
+• Method Overriding
+  Bonuses:
+    • Method Hiding
+    • Method Shadowing
