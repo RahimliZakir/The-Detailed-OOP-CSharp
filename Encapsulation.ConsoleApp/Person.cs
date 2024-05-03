@@ -1,6 +1,6 @@
 ﻿namespace Encapsulation.ConsoleApp
 {
-    // This class encapsulates all 'fields', 'properties', 'variables' or '' methods.
+    // This class encapsulates all 'fields', 'properties', 'variables' or 'methods'.
     class Person
     {
         public string Name { get; set; } = null!;
