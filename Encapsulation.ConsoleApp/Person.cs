@@ -6,7 +6,7 @@
         public string Name { get; set; } = null!;
         public string Surname { get; set; } = null!;
 
-        // Data Hiding:
+        // Data (Information) Hiding:
         private int age;
 
         public int Age

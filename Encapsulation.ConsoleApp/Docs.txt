@@ -6,7 +6,7 @@ So, you can think of Encapsulation as a cover or layer that binds related states
 
 - Every class, interface, struct, enum, etc. that we created is an example of encapsulation!
 
-- What is Data Hiding in C#?
+- What is Data (Information) Hiding in C#?
 Data hiding or Information Hiding is a Process in which we hide internal data from outside the world. 
 The purpose of data hiding is to protect the data from misuse by the outside world. 
 Data hiding is also known as Data Encapsulation. Without the Encapsulation Principle, we cannot achieve data hiding.

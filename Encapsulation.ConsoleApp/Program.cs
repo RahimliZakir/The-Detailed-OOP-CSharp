@@ -1,6 +1,6 @@
 ﻿using Encapsulation.ConsoleApp;
 
-// Encapsulation -> Data Hiding
+// Encapsulation -> Data (Information) Hiding
 Person person = new()
 {
     Name = "Zakir",
