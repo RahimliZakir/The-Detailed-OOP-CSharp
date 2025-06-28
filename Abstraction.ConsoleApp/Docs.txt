@@ -11,4 +11,12 @@ Abstraction lets you focus more on what an object does rather than how it does.
 - How to Implement Abstraction Principle in C#?
 In C#, we can implement the abstraction OOPs principle in two ways. They are as follows:
 1. Using Interface
+   Using the interface, we can achieve 100% abstraction. Now, the user will only know the services that 
+   are defined in the interface, but how the services are implemented, the user will never know. This is how we can 
+   implement abstraction in C# by hiding the implementation details from the user. Here, the user will 
+   only know about IBank, but the user will not know about the KapitalBank and PASHABank Classes.
 2. Using Abstract Classes and Abstract Methods
+   We can achieve 0 to 100% abstraction using the abstract class and abstract methods. In the below example
+   , the user will only know the services that are defined in the abstract class, but how these services are
+   implemented, the user will never know. This is how we can implement abstraction in C# by hiding the 
+   implementation details from the user.
