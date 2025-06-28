@@ -1,5 +1,7 @@
 ﻿- C# Inheritance
-In C#, inheritance allows us to create a new class from an existing class. It is a key feature of Object-Oriented Programming (OOP).
+In C#, inheritance allows us to create a new class from an existing class, or we can say
+inheritance in C# is a mechanism of consuming the members that are defined in one class from another class.
+It is a key feature of Object-Oriented Programming (OOP).
 The class from which a new class is created is known as the base class (parent or superclass).
 And, the new class is called derived class (child or subclass)
 The derived class inherits the fields and methods of the base class. This helps with the code reusability in C#.
@@ -9,7 +11,7 @@ In C#, inheritance is an is-a relationship. We use inheritance only if there is 
 
 • Dog is an Animal
 • Apple is a Fruit
-•Car is a Vehicle
+• Car is a Vehicle
 We can derive Dog from Animal class. Similarly, Apple from Fruit class and Car from Vehicle class.
 
 - Types of inheritance
