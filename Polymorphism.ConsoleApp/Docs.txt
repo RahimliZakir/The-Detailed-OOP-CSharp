@@ -11,7 +11,31 @@ There are two types of polymorphism:
 
 - 1. Compile Time (Static) Polymorphism
 • Method overloading
+  Method Overloading means it is an approach to defining multiple methods under the class with a single 
+  name. So, we can define more than one method with the same name in a class. But the point that you need
+  to remember the parameters of all those methods should be different (different in terms of number, type,
+  and order of the parameters).
 • Operator overloading
+  By overloading the operators, we can give additional meaning to the operators like +-*/=.,= etc., which
+  by default is supposed to work with only on standard data types like int, float, char, void, etc. 
+  It’s a type of polymorphism in which an operator is overloaded to give it the user-defined meaning.
+  The syntax for C# Operator Overloading:
+  public static return_type operator op (Type t) 
+  {
+      Statements
+  }
+  1. The 'return type' is the return type of the function.
+  2. the 'operator' is a keyword.
+  3. 'Op' is the symbol of the operator that we want to overload. Like: +, <, -, ++, etc.
+  4. The 'type' must be a class or struct. It can also have more parameters.
+  5. It should be a 'static' function.
+  The following table describes the overloading ability of the various operators available in C#:
+  Operators                 Description
+  +, -, !, ~, ++, --        'Unary' operators take 'one operand' and can be overloaded.
+  +, -, *, /, %             'Binary' operators take 'two operands' and can be overloaded.
+  ==, !=,                   'Comparison' operators can be overloaded.
+  &&, ||                    'Conditional logical' operators cannot be overloaded directly.
+  +=, -+, *=, /=, %=,=      'Assignment' operators cannot be overloaded.
 
 - 2. Runtime (Dynamic) Polymorphism
 • Method Overriding

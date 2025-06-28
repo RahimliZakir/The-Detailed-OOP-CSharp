@@ -26,6 +26,15 @@ string firstString = "Michy";
 string secondString = "Batshuayi";
 string concatenatedString = operatorOverloader.Concatenate(firstString, secondString);
 Console.WriteLine(concatenatedString);
+// - Overload An Operator 
+OperatorOverloader firstOperatorOverloader = new(10, 13);
+OperatorOverloader secondOperatorOverloader = new(20, 23);
+//  Without Operator Overloading
+OperatorOverloader tempOperatorOverloader = OperatorOverloader.Add(firstOperatorOverloader, secondOperatorOverloader);
+Console.WriteLine(tempOperatorOverloader);
+//  With Operator Overloading
+tempOperatorOverloader = firstOperatorOverloader + secondOperatorOverloader;
+Console.WriteLine(tempOperatorOverloader);
 
 // 2. Runtime Polymorphism
 // a. Method Overriding
@@ -34,7 +43,7 @@ Console.WriteLine(animal.MakeSound());
 Animal dog = new Dog();
 Console.WriteLine(dog.MakeSound());
 Animal cat = new Cat();
-Console.WriteLine(cat.MakeSound()); 
+Console.WriteLine(cat.MakeSound());
 
 // b. Method Hiding
 Headphones headphones = new();
