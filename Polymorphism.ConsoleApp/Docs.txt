@@ -7,7 +7,14 @@ That is, the same entity (method or operator or object) can perform different op
 -Types of Polymorphism
 There are two types of polymorphism:
 1. Compile Time Polymorphism / Static Polymorphism
+   In static polymorphism, the behavior of a method is decided at compile time. That means the C# compiler
+   binds method calls with method definition/body during compilation time only. Therefore, this type of 
+   polymorphism is also called compile-time polymorphism in C#. As the binding (the link between the function
+   call and function definition) is performed at compile time, it is also known as early binding.
 2. Run-Time Polymorphism / Dynamic Polymorphism
+   In dynamic polymorphism, the behavior of a method is decided at runtime. Therefore, the CLR 
+   (Common Language Runtime) binds the method call with the method definition/body at runtime and invokes
+   the relevant method during runtime when the method is called.
 
 - 1. Compile Time (Static) Polymorphism
 • Method overloading
@@ -15,6 +22,7 @@ There are two types of polymorphism:
   name. So, we can define more than one method with the same name in a class. But the point that you need
   to remember the parameters of all those methods should be different (different in terms of number, type,
   and order of the parameters).
+
 • Operator overloading
   By overloading the operators, we can give additional meaning to the operators like +-*/=.,= etc., which
   by default is supposed to work with only on standard data types like int, float, char, void, etc. 
@@ -37,8 +45,22 @@ There are two types of polymorphism:
   &&, ||                    'Conditional logical' operators cannot be overloaded directly.
   +=, -+, *=, /=, %=,=      'Assignment' operators cannot be overloaded.
 
+• Method Hiding or Method Shadowing
+  In Method Hiding/Shadowing, the child classes can re-implement any method of its parent class methods 
+  even if they are not declared as virtual. That means here the child class re-implements the parent class
+  methods without taking any permission from its parent.
+  - IMPORTANNT:
+    The point that you need to remember is that a parent class reference variable even if created by using 
+    the child class instance, cannot access any members which are purely defined inside the child class but
+    can call the overriding methods of the child class because overridden members are not considered as pure
+    child class members, but the members which are re-implemented inside the child class by using the approach
+    of hiding are considered as pure child class members and cannot be accessed by Parent reference variable.
+
 - 2. Runtime (Dynamic) Polymorphism
 • Method Overriding
-  Bonuses:
-    • Method Hiding
-    • Method Shadowing
+  The process of re-implementing the superclass non-static, non-private, and non-sealed method in the 
+  subclass with the same signature is called Method Overriding in C#. The same signature means the name 
+  and the parameters (type, number, and order of the parameters) should be the same. 
+  If you want to override the Parent class method in its Child classes, first the method in the parent 
+  class must be declared as virtual by using the virtual keyword, then only the child classes get permission
+  for overriding that method.

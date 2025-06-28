@@ -1,4 +1,4 @@
-﻿namespace Polymorphism.ConsoleApp._2.RuntimePolymorphism.a.MethodOverriding
+﻿namespace Polymorphism.ConsoleApp._2.RuntimePolymorphism.MethodOverriding
 {
     class Animal
     {
